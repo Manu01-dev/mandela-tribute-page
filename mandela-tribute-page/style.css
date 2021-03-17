@@ -1,0 +1,228 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header
+{
+    width: 100%;
+    background-color: blue;
+    box-shadow: 5px 5px 10px black;;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.top
+{
+    width: 100%;
+    background-color: aquamarine;
+}
+.top img
+{
+width: 100%;
+height: auto;
+}
+.top p {
+text-align: center;
+color:rgb(151, 144, 144);
+font-size: 30px;
+padding: 0 0 20px 0;
+}
+
+.box2 .pic
+{
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+}
+.box2 .btn
+{
+    width: 100%;
+    border: none;
+    background-color: rgb(188, 188, 219);
+    margin: 0 0 20px 0;
+    padding: 20px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.box2 .btn:hover{
+    background-color: rgb(155, 155, 219);
+}
+.icon
+{
+  width: 50px;
+  height: 50px;
+}
+.card
+{
+  margin-top: 50px;
+}
+
+  /*----- timeline------*/
+
+
+/*------------Mobile view--------------------------*/
+
+  @media only screen and (max-width: 480px){
+
+    .box1
+    {
+        width: 100%;
+        border: none;
+        background-color: white;
+    }
+    .box1 h2
+    {
+        text-align: center;
+        padding: 20px 0;
+        color:rgb(173, 171, 171);
+    }
+    .box1 table{
+       width: 100%;
+    }
+    .box1 table th {
+        background-color: rgb(194, 194, 228);
+        padding: 10px;
+        display: block;
+    }
+    .box1 table td {
+        background-color: rgb(189, 214, 216);
+        padding: 10px;
+        display: block;
+    }
+    .box2
+    {
+        width:100%;
+        border: none;
+        background-color: white;
+    }
+    .box2 img{
+        width: 100%;
+        height: auto;
+    }
+  
+  
+    .footer
+    {
+        width: 100%;
+        background-color: rgb(216, 221, 221);
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .gala {
+        background-color: rgb(216, 221, 221);
+    }
+    
+    .gallary{
+        width: 100%;
+    }
+    
+    .gallary img {
+        width: 100%;
+        height: auto;
+    };
+  }
+
+/*------------Computer view--------------------------*/
+
+@media only screen and (min-width: 480px) {
+
+    /*----- top------*/
+body {
+        background-color:white;
+    }
+    .top
+    {
+        width: 90%;
+        margin: auto;
+        background-color: aquamarine;
+    }
+    .top img
+{
+    width: 100%;
+    height: auto;
+}
+.top p {
+text-align: center;
+color:white;
+font-size: 30px;
+padding: 0 0 20px 0;
+}
+
+  /*----- timeline------*/
+  
+ .main
+  {
+    width: 90%;
+    margin: auto;
+  }
+.box1
+{
+    border: none;
+    background-color: white;
+    width: 65%;
+    float: left;
+}
+.box1 h2{
+    text-align: center;
+    margin: 20px;
+    color:rgb(173, 171, 171);
+    font-size: 30px;
+}
+.box1 table{
+    width: 90%;
+    margin: 15px auto;
+}
+.box1 table th {
+    width: 30%;
+    background-color: rgb(194, 194, 228);
+    padding: 10px;
+    
+}
+.box1 table td {
+    background-color: rgb(189, 214, 216);
+    width: 63%;
+    padding: 10px;
+    
+}
+.box2
+{
+    border: none;
+    background-color: white;
+    width: 30%;
+    float: right;
+}
+.box2 img{
+    width: 100%;
+    height: auto;
+}
+.footer
+    {
+        width: 90%;
+        background-color: rgb(216, 221, 221);
+        text-align: center;
+        font-size: 30px;
+        margin: 10px 30px;
+        padding: 20px;
+        float: left;
+        clear: both;
+    }
+
+.gala {
+    background-color: rgb(216, 221, 221);
+}
+
+.gallary{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.gallary img {
+    width: 350px;
+    height: 300px;
+};
